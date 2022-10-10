@@ -1,0 +1,4 @@
+{
+  "builds": [{ "src": "mlapi.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "mlapi.py" }]
+}
